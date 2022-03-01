@@ -12,7 +12,7 @@ import net.md_5.bungee.protocol.ProtocolConstants;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode(callSuper = false)
+@EqualsAndHashCode(callSuper = true)
 public class Player extends DefinedPacket
 {
 
